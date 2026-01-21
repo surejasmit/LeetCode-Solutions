@@ -10,10 +10,7 @@ The first k elements of nums should contain the valid values, and the remaining
 elements can be ignored.
 
 
-
-## Installation
-
-Install my-project with npm
+## 🔍 Example
 
 ```bash
 Input:  nums = [3,2,2,3], val = 3
@@ -53,4 +50,19 @@ Remove-Element/
     ├── two_pointer_solution.cpp
     └── swap_with_last_solution.cpp
 ```
+## 📊 Approach Comparison
 
+| Approach    | Time       | Space | Interview Friendly |
+| ----------- | ---------- | ----- | ------------------ |
+| Two-Pointer   | O(n)       | O(1)  | ✅ Yes               |
+| Swap with End | O(n)       | O(1)  | ✅ Yes(rare val)          |
+| Extra Space    | O(n) | O(n)  | ❌ No               |
+
+
+## 🏁 Final Notes
+
+*Two-Pointer method is optimal and most commonly used in interviews
+* Swap with End is a good trick for rare val elements
+* Extra space method is simplest but not space-efficient
+
+  ⭐ *If this repository helped you, consider giving it a star!*
