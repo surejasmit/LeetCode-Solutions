@@ -3,12 +3,15 @@
 using namespace std;
 
 int removeElement(vector<int>& nums, int val) {
-    int k = 0; // pointer for next valid element
-    for (int i = 0; i < nums.size(); i++) {
-        if (nums[i] != val) {
-            nums[k] = nums[i]; // place valid element
-            k++;
+    int i = 0;
+    int n = nums.size();
+    while (i < n) {
+        if (nums[i] == val) {
+            nums[i] = nums[n-1]; // swap with last element
+            n--; // shrink array
+        } else {
+            i++;
         }
     }
-    return k; // number of elements not equal to val
+    return n; // number of valid elements
 }
