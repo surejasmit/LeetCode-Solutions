@@ -9,6 +9,7 @@ The first k elements of nums should contain the valid values, and the remaining
 elements can be ignored.
 
 🔍 Example
+'''text
 Input:  nums = [3,2,2,3], val = 3
 Output: 2
 Updated nums = [2,2,_,_]
@@ -17,6 +18,7 @@ Input:  nums = [0,1,2,2,3,0,4,2], val = 2
 Output: 5
 Updated nums = [0,1,3,0,4,_,_,_]
 
+'''
 🧠 Key Observations
 - The array must be modified in-place
 - No extra array should be created
@@ -28,6 +30,7 @@ Updated nums = [0,1,3,0,4,_,_,_]
 The repository is structured so that each approach and language has its own file.
 The README focuses only on explanation, while implementations are kept separate.
 
+'''text
 Remove-Element/
 │
 ├── README.md
@@ -42,6 +45,7 @@ Remove-Element/
 │   ├── two_pointer_solution.cpp
 │   └── swap_with_last_solution.cpp
 
+'''
 🔍 Approach 1: Count & Remove Method (Simple but Inefficient)
 Files:
 - Python: Python/count_remove_solution.py
