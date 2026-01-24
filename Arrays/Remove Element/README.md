@@ -1,4 +1,3 @@
-
 # Remove Element
 
 📌 Problem Statement
